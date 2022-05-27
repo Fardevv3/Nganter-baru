@@ -48,15 +48,10 @@ module.exports = {
 
 › .music <judul - artis>
 › .play <judul - artis>
-› .ytmp3 <url> ❪ --vn ❫
+› .ytmp3 <url>
 › .ytmp4 <url> 
 › .yt <url>
 › .facebook
-› .ig Highlights
-› .ig Post
-› .ig Stories
-› .pinterest
-› .tikTok
 › .twitter
 
 
