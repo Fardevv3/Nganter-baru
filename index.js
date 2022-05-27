@@ -27,7 +27,7 @@ global.config = require('./src/config.json')
 global.quot = config.quot
 global.API = config.api
 global.owner = config.owner
-global.footer = `catzy - bot multi Device `
+global.footer = `Farbot-Md `
 const { SID } = require('sid-api')
 global.sID = new SID(process.env.sid_email, process.env.sid_password);
 let session;
