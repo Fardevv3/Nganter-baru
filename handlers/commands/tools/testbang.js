@@ -12,6 +12,6 @@ module.exports = {
 	}
 
 
-client.sendMessage(m.chat, {text: 'gua udh aktife anjg'}, {quoted:fliveLoc2})
+client.sendMessage(m.chat, {text: 'Bot sudah onn!!'}, {quoted:fliveLoc2})
     }
 }

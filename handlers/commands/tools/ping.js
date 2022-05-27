@@ -11,18 +11,18 @@ module.exports = {
     exec: (m, client, { prefix }) => {
       
         const btn = [
-            { quickReplyButton: { displayText: `↬𝙗𝙖𝙘𝙠 𝙩𝙤 𝙢𝙚𝙣𝙪`, id: `${prefix}menu` } },
+            { quickReplyButton: { displayText: `BACK TO MENU`, id: `${prefix}menu` } },
             
-            { urlButton: { displayText: `𝙋𝙝𝙤𝙣𝙚 𝙣𝙪𝙢𝙗𝙚𝙧`, url: `https://wa.me/+6287773710155` } },
+            { urlButton: { displayText: `Contact Me`, url: `https://wa.me/+6283811034750` } },
         ]
 
-        client.sendMessage(m.chat, { caption: ` 「𝙱𝚘𝚝 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗」
+        client.sendMessage(m.chat, { caption: ` 「INFO-BOT」
 
 ⊳ Bot Status : Online
 ⊳ Latency : ${processTime(client.timestamp, moment())} _ms_
 ⊳ Bot Run Time : ${moment.duration(mulai.mtimeMs, 'milliseconds').humanize()}
 ⊳ System Up Time : ${moment.duration(os.uptime(), 'seconds').humanize()}
-`, footer, templateButtons: btn, image: {url: 'https://telegra.ph/file/37ef5da9806ee6ed01e08.jpg'}
+`, footer, templateButtons: btn, image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
 		}, { quoted: m })
     }
 }

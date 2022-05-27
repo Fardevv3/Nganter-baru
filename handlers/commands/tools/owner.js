@@ -14,7 +14,7 @@ module.exports = {
                             itemCount : 2022,
                             status: 1,
                             surface : 1,
-                            message: 'developer catzy', //Kasih namalu
+                            message: 'FARDEV78', //Kasih namalu
                             orderTitle: 'Bang',
                             thumbnail: fs.readFileSync('./src/log.png'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
@@ -28,11 +28,11 @@ const kon = {
   "displayName": "2 contacts",
   "contacts": [
     {
-      "displayName": "Fauzan",
+      "displayName": "Fahri",
       "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Fauzan;;;\nFN:Fauzan\nitem1.TEL;waid=12342337336:+1 (234) 233-7336\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
     },
     {
-      "displayName": "Ilham Skhzyi",
+      "displayName": "Fardev",
       "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Skhzyi;Ilham;;;\nFN:Ilham Skhzyi\nORG:Ilham Skhyzi\nTITLE:\nitem1.TEL;waid=6287773710155:+62 877-7371-0155\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
     }
   ]

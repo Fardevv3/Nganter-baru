@@ -14,7 +14,7 @@ module.exports = {
         ]
         client.sendMessage(m.chat, { 
 			caption: `akun gratis game dari
- [ catzt - bot ]
+ [ FAR-MD ]
 
 *VIA LOGIN*
 gmail
@@ -25,7 +25,7 @@ paswrod
 update tools => ilham - skhyzi`, 
 			footer, 
 			templateButtons: btn,
-			image: {url: 'https://telegra.ph/file/5ff88ba511ff44ca22eac.jpg'}
+			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
 		}, { quoted: m })
 
 

@@ -8,24 +8,24 @@ module.exports = {
 const btn = [
             
            
-            { urlButton: { displayText: `𝙃𝙤𝙨𝙩𝙞𝙣𝙜 `, url: `https://jsrepos.com/lib/Ilhamskhyi-catzy` } },
+            { urlButton: { displayText: `Group Me `, url: `https://chat.whatsapp.com/G0QgvIganFuIZWG5GBkQBv` } },
  { urlButton:
-{ displayText: `𝙂𝙞𝙩𝙝𝙪𝙗 `, url: `https://github.com/Ilhamskhyi` } },
+{ displayText: `Github Me `, url: `https://github.com/Satria356` } },
  { urlButton:
-{ displayText: `𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 `, url: `developer atau pengembang bot https://wa.me/+6287773710155` } },
-             { quickReplyButton: {displayText: '𝙛𝙖𝙨𝙩 𝙧𝙚𝙨𝙥𝙤𝙣𝙚 𝙗𝙤𝙩', id: '.ping '}},
-{ quickReplyButton: {displayText: '𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚𝙧 ', id: '.allmenu'}}
+{ displayText: `Developer `, url: `developer atau pengembang bot https://wa.me/+6283811034750` } },
+             { quickReplyButton: {displayText: 'SPEED-TEST', id: '.ping '}},
+{ quickReplyButton: {displayText: 'MENU-LIST', id: '.allmenu'}}
         ]
         client.sendMessage(m.chat, { 
-			caption: `𝚌𝚊𝚝𝚣𝚢 - 𝚋𝚘𝚝 𝚖𝚞𝚕𝚝𝚒 𝚍𝚎𝚟𝚒𝚌𝚎
+			caption: `FAR-MD
 ━━━━━━━━━━━━
-◕ 𝑖𝑛𝑓𝑜𝑏𝑜𝑡
+› 𝑖𝑛𝑓𝑜𝑏𝑜𝑡
 
 「version 0.5.1」
 ⌜ 𝚋𝚊𝚒𝚕𝚢𝚎𝚜 𝚕𝚊𝚝𝚎𝚜𝚝⁴⁰⁴ ⌟`, 
 			footer, 
 			templateButtons: btn,
-			image: {url: 'https://telegra.ph/file/7b0e8623615268a38f2fe.jpg'}
+			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
 		}, { quoted: m })
 }
 }
