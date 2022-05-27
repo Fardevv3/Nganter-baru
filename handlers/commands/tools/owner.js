@@ -28,12 +28,12 @@ const kon = {
   "displayName": "2 contacts",
   "contacts": [
     {
-      "displayName": "Fahri",
-      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Fauzan;;;\nFN:Fauzan\nitem1.TEL;waid=12342337336:+1 (234) 233-7336\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
+      "displayName": "Fardev78",
+      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Fardev78;;;\nFN:Fardev78\nitem1.TEL;waid=18312576749:+1 (831) 257-6749\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
     },
     {
-      "displayName": "Fardev",
-      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Skhzyi;Ilham;;;\nFN:Ilham Skhzyi\nORG:Ilham Skhyzi\nTITLE:\nitem1.TEL;waid=6287773710155:+62 877-7371-0155\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
+      "displayName": "Fahri",
+      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Fahri;45;;;\nFN:Fahri\nORG:Fahri\nTITLE:\nitem1.TEL;waid=6283811034750:+62 838-1103-4750\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
     }
   ]
 }
