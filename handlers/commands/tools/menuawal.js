@@ -19,8 +19,10 @@ const btn = [
         client.sendMessage(m.chat, { 
 			caption: `FAR-MD
 ━━━━━━━━━━━━
-› 𝑖𝑛𝑓𝑜𝑏𝑜𝑡
+Hai kak untuk menampilkan List menu Bot
+silahkan klik button menu di bawah ya
 
+› 𝑖𝑛𝑓𝑜𝑏𝑜𝑡
 「version 0.5.1」
 ⌜ 𝚋𝚊𝚒𝚕𝚢𝚎𝚜 𝚕𝚊𝚝𝚎𝚜𝚝⁴⁰⁴ ⌟`, 
 			footer, 
