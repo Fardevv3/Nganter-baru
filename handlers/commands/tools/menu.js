@@ -18,15 +18,6 @@ module.exports = {
         ]
         client.sendMessage(m.chat, { 
 			caption: `
-┎ 𝙩𝙝𝙞𝙨 𝙧𝙪𝙣𝙣𝙚𝙧-𝙪𝙥 
-⫹⫺ 𝐼𝑃 : 52.149.220.151
-⫹⫺ 𝑛𝑒𝑔𝑎𝑟𝑎 : 𝑆𝑖𝑛𝑔𝑎𝑝𝑢𝑟𝑎°
-⫹⫺ 𝑝𝑙𝑎𝑡𝑓𝑟𝑜𝑚 : 𝑈𝑏𝑢𝑛𝑡𝑢 20.04
-⫹⫺ 𝑛𝑜𝑑𝑒𝐽𝑆 : 𝑣16.14.0
-⫹⫺ 𝑚𝑜𝑑𝑒𝑙  : 𝐼𝑛𝑡𝑒𝑙(𝑅) 𝑋𝑒𝑜𝑛(𝑅) 
-⫹⫺ 𝐶𝑃𝑈 : @ 2.00𝐺𝐻𝑧
-╰━━━━❑
-
 ┎ *BOT-INFO*
 ⫹⫺ Version: %version
 ⫹⫺ Runtime: %uptime
@@ -40,32 +31,31 @@ module.exports = {
 ❑ *D O W N L O A D E R*
 
 › .music *judul - artis*
-› .play *For music*
-› .play2 *For vidio*
+› .play *For vidio*
+› .play2 *For music*
 › .ytmp3 *url*
+› .asupan *hashtagtiktok*
 › .ytmp4 *url* 
 › .yt *url*
+› .yts *query*
 › .facebook
 › .twitter
 
-❑ *G R O U P - C H A T
-› .+ *628xxx, 628xxx,*
-› .- *@user, @user reply msg*
-› .^ 
-› .demote *@user, @user reply msg*
-› .unadmin *@user, @user reply msg*
+❑ *G R O U P - C H A T*
+› .add *nomer*
+› .kick *@tag*
+› .^
 › .getlink
 › .linkgc
 › .grouplink
 › .groupinfo
-› .inv *reply msg*
-› .invite *reply msg*
+› .inv *reply*
+› .invite *reply*
 › .all
 › .tagall
 › .hidetag
 
 ❑ *T O O L S - M E N U*
-› .asupan *hashtagtiktok*
 › .emo *emoji*
 › .emoji *emoji*
 › .smeme *text 1 | text2*
