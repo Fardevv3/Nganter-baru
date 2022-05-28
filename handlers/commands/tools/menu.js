@@ -9,10 +9,10 @@ module.exports = {
         const btn = [
             
             { urlButton: { displayText: `Contact Me
-`, url: `+1 (831) 257-6749` } },
+`, url: `https://wa.me/6283811034750` } },
             { urlButton: { displayText: `Support Me `, url: `https://nekopoi.care` } },
             { urlButton: { displayText: `Youtube Me`, url: `https://youtube.com/channel/UCeDCBpnAfkBPHs0gD5AgY-Q` } },
-{ quickReplyButton: {displayText: 'Sewa Bot', id: '.sewa'}},
+{ quickReplyButton: {displayText: 'Info bot', id: '.infobot'}},
             { quickReplyButton: {displayText: 'Developer', id: '.owner'}}
             
         ]
@@ -84,7 +84,7 @@ module.exports = {
 WhatsApp bot simple beta version
 Version 0.5.0`,  
 			templateButtons: btn,
-			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
+			image: {url: 'https://telegra.ph/file/4d6331ae20cdb39bd0c9d.jpg'}
 		}, { quoted: m })
 }
 }
