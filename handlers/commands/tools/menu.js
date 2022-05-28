@@ -18,7 +18,7 @@ module.exports = {
         ]
         client.sendMessage(m.chat, { 
 			caption: `
-┎ 𝙩𝙝𝙞𝙨 𝙧𝙪𝙣𝙣𝙚𝙧-𝙪𝙥 
+┎ *INFORMATION*
 ⫹⫺ 𝐼𝑃 : 52.149.220.151
 ⫹⫺ 𝑛𝑒𝑔𝑎𝑟𝑎 : 𝑆𝑖𝑛𝑔𝑎𝑝𝑢𝑟𝑎°
 ⫹⫺ 𝑝𝑙𝑎𝑡𝑓𝑟𝑜𝑚 : 𝑈𝑏𝑢𝑛𝑡𝑢 20.04
@@ -48,15 +48,12 @@ module.exports = {
 
 › .music <judul - artis>
 › .play <judul - artis>
-› .ytmp3 <url> ❪ --vn ❫
+› .ytmp3 <url>
 › .ytmp4 <url> 
 › .yt <url>
+› .yts <query>
 › .facebook
-› .ig Highlights
-› .ig Post
-› .ig Stories
-› .pinterest
-› .tikTok
+› .google <query>
 › .twitter
 
 
@@ -113,7 +110,8 @@ module.exports = {
 ⌜ 𝚋𝚊𝚒𝚕𝚢𝚎𝚜 𝚕𝚊𝚝𝚎𝚜𝚝⁴⁰⁴ ⌟
 
 𝑚𝑜𝑑𝑒𝑙 𝐶𝑃𝑈 : 𝐼𝑛𝑡𝑒𝑙(𝑅) 𝑋𝑒𝑜𝑛(𝑅) 𝐶𝑃𝑈 
-@ 2.00𝐺𝐻𝑧`,  
+@ 2.00𝐺𝐻𝑧`, 
+			footer, 
 			templateButtons: btn,
 			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
 		}, { quoted: m })
