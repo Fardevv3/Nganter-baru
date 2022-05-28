@@ -276,4 +276,22 @@ const start = async () => {
     })
 };
 
+    client.ws.on('CB:call', async call => {
+        if (call.content[0].tag == 'offer') {
+            const callerJid = call.content[0].attrs['call-creator']
+            const { version, platform, notify, t } = call.attrs
+            const caption = `Wahai _${notify || 'user botku'}_ , kamu telah menelpon bot pada *${moment(t * 1000).format('LLL')}* menggunakan device *${platform}* kamu, sehingga kamu diblokir oleh bot secara otomatis.\nsilahkan chat owner bot untuk membuka blok`
+            await delay(3000)
+            for (let i = 0; i < config.owner.length; i++) {
+                await client.sendContact(callerJid, config.owner[i].split(S_WHATSAPP_NET)[0], `${config.owner.length < 1 ? 'Owner' : `Owner ${i + 1}`}`)
+            }
+            await delay(7000)
+            await client.sendMessage(callerJid, { text: caption }).then(async () => {
+                await client.updateBlockStatus(callerJid, 'block')
+            })
+        }
+    })
+};
+
+
 start().catch(() => start());
