@@ -2,8 +2,8 @@
 
 module.exports = {
     tags: ['others', 'information'],
-    cmd: ['allmenu', 'allmenu'],
-    help: ['allmenu'],
+    cmd: ['menu', 'bot'],
+    help: ['help'],
     exec: (m, client, { prefix }) => {
       
         const btn = [
@@ -19,10 +19,10 @@ module.exports = {
         client.sendMessage(m.chat, { 
 			caption: `
 ┎ *BOT-INFO*
-⫹⫺ Version: %version
-⫹⫺ Runtime: %uptime
-⫹⫺ 𝚋𝚊𝚒𝚕𝚢𝚎𝚜 𝚕𝚊𝚝𝚎𝚜𝚝⁴⁰⁴
-⫹⫺ 𝙻𝚒𝚋𝚛𝚊𝚛𝚢: 𝙱𝚊𝚒𝚕𝚎𝚢𝚜
+⫹⫺ Version: 0.5.0 *Beta*
+⫹⫺ Prefix : ( ./!# )
+⫹⫺ Bayleys : latest⁴⁰⁴
+⫹⫺ Library: baileys-md
 ╰━━━━❑
 
 *COMMANDS LIST*
@@ -38,8 +38,8 @@ module.exports = {
 › .ytmp4 *url* 
 › .yt *url*
 › .yts *query*
-› .facebook
-› .twitter
+› .facebook *urlfb*
+› .twitter *urltwit*
 
 ❑ *G R O U P - C H A T*
 › .add *nomer*
@@ -58,11 +58,9 @@ module.exports = {
 ❑ *T O O L S - M E N U*
 › .emo *emoji*
 › .emoji *emoji*
-› .smeme *text 1 | text2*
+› .smeme *text1 | text2*
 › .mix *emoji1 emoji2*
 › .quotiet *text1 | text2*
-› .flip reply media*
-› .flop *reply media*
 › .sticker *reply media*
 › .toimg *reply sticker*
 › .8d *reply audio*
@@ -83,8 +81,8 @@ module.exports = {
 › .rules
 › .ping
 
-𝑚𝑜𝑑𝑒𝑙 𝐶𝑃𝑈 : 𝐼𝑛𝑡𝑒𝑙(𝑅) 𝑋𝑒𝑜𝑛(𝑅) 𝐶𝑃𝑈 
-@ 2.00𝐺𝐻𝑧`,  
+WhatsApp bot simple beta version
+Version 0.5.0`,  
 			templateButtons: btn,
 			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
 		}, { quoted: m })
