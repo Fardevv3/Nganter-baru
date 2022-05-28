@@ -2,7 +2,7 @@ const YT = require('../../../lib/yt')
 
 module.exports = {
     tags: ['downloader'],
-    cmd: ['play'],
+    cmd: ['play2'],
     args: ['judul - artis'],
     help: ['play'],
     exec: async (m, client, { prefix, args, cmd }) => {
