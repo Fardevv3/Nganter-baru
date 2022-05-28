@@ -1,8 +1,8 @@
 
 module.exports = {
     tags: ['others', 'information'],
-    cmd: ['menu', 'menu'],
-    help: ['menu'],
+    cmd: ['infobot', 'infobot'],
+    help: ['info'],
     exec: (m, client, { prefix }) => {
 
 const btn = [
@@ -19,15 +19,16 @@ const btn = [
         client.sendMessage(m.chat, { 
 			caption: `FAR-MD
 ━━━━━━━━━━━━
-Hai kak untuk menampilkan List menu Bot
-silahkan klik button menu di bawah ya
-
-› 𝑖𝑛𝑓𝑜𝑏𝑜𝑡
-「version 0.5.1」
-⌜ 𝚋𝚊𝚒𝚕𝚢𝚎𝚜 𝚕𝚊𝚝𝚎𝚜𝚝⁴⁰⁴ ⌟`, 
+› *INFO BOT*
+Bot name : Farbot-Md
+Type bot : Multi Device
+Owner name : Fardev78
+Bot version : 0.5.1
+Contact Me : https://wa.me/+6283811034750
+⌜ Farbot-Multi-device ⌟`, 
 			footer, 
 			templateButtons: btn,
-			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
+			image: {url: 'https://telegra.ph/file/06e5276a64a401b755676.jpg'}
 		}, { quoted: m })
 }
 }
