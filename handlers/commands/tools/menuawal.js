@@ -14,7 +14,7 @@ const btn = [
  { urlButton:
 { displayText: `Developer `, url: `developer atau pengembang bot https://wa.me/+6283811034750` } },
              { quickReplyButton: {displayText: 'SPEED-TEST', id: '.ping '}},
-{ quickReplyButton: {displayText: 'MENU-LIST', id: '.allmenu'}}
+{ quickReplyButton: {displayText: 'MENU-LIST', id: '.menu'}}
         ]
         client.sendMessage(m.chat, { 
 			caption: `FAR-MD
