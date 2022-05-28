@@ -74,12 +74,11 @@ module.exports = {
 › .tagall
 › .hidetag
 
-❑ *I N T E R N E T*
+❑ *T O O L S - M E N U*
 
 › .asupan <hashtagtiktok>
 › .emo <emoji>
 › .emoji <emoji>
-› .extract <reply a sticker>
 › .memesticker <text 1 | text2>
 › .mix <emoji1 emoji2>
 › .quotiet <text quotes | watermark>
@@ -87,17 +86,11 @@ module.exports = {
 › .removebg <doc file>
 › .flip <send/reply media>
 › .flop <send/reply media>
-› .rotate <send/reply media>
 › .sticker <send/reply media>
 › .toimg <reply a sticker>
-
-❑ *T O O L S*
-
 › .8d <reply audio>
 › .eightd <reply audio>
 › .shrot <url>
-› .tomp3 <reply/send video>
-› .toaudio <reply/send video>
 
 ❑ *O W N E R*
 
