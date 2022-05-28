@@ -51,6 +51,7 @@ module.exports = {
 › .ytmp3 <url>
 › .ytmp4 <url> 
 › .yt <url>
+› .yts <query>
 › .facebook
 › .twitter
 
@@ -77,6 +78,7 @@ module.exports = {
 › .asupan <hashtagtiktok>
 › .emo <emoji>
 › .emoji <emoji>
+› .take <reply stiker>
 › .extract <reply a sticker>
 › .memesticker <text 1 | text2>
 › .mix <emoji1 emoji2>
