@@ -48,11 +48,15 @@ module.exports = {
 
 › .music <judul - artis>
 › .play <judul - artis>
-› .ytmp3 <url>
+› .ytmp3 <url> ❪ --vn ❫
 › .ytmp4 <url> 
 › .yt <url>
-› .yts <query>
 › .facebook
+› .ig Highlights
+› .ig Post
+› .ig Stories
+› .pinterest
+› .tikTok
 › .twitter
 
 
@@ -78,7 +82,6 @@ module.exports = {
 › .asupan <hashtagtiktok>
 › .emo <emoji>
 › .emoji <emoji>
-› .take <reply stiker>
 › .extract <reply a sticker>
 › .memesticker <text 1 | text2>
 › .mix <emoji1 emoji2>
@@ -110,8 +113,7 @@ module.exports = {
 ⌜ 𝚋𝚊𝚒𝚕𝚢𝚎𝚜 𝚕𝚊𝚝𝚎𝚜𝚝⁴⁰⁴ ⌟
 
 𝑚𝑜𝑑𝑒𝑙 𝐶𝑃𝑈 : 𝐼𝑛𝑡𝑒𝑙(𝑅) 𝑋𝑒𝑜𝑛(𝑅) 𝐶𝑃𝑈 
-@ 2.00𝐺𝐻𝑧`, 
-			footer, 
+@ 2.00𝐺𝐻𝑧`,  
 			templateButtons: btn,
 			image: {url: 'https://telegra.ph/file/bcd9669f3b7efda08602d.jpg'}
 		}, { quoted: m })
