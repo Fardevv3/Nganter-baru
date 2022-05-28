@@ -13,7 +13,7 @@ module.exports = {
             let tex = `*YouTube Search*\n`
             let n = 1
             for (let x of list) {
-                tex += `\n*${n}. ${x.title}*\n🐓 *Channel :* ${x.author.name}\n⌛ *Duration :* ${x.timestamp}\n👀 *Views :* ${formatK(x.views)}\n📅 *Uploaded :* ${x.ago}\n🔗 *Url :* ${x.url}\n`
+                tex += `\n*${n}. ${x.title}*\n *Channel :* ${x.author.name}\n *Duration :* ${x.timestamp}\n *Views :* ${formatK(x.views)}\n *Uploaded :* ${x.ago}\n *Url :* ${x.url}\n`
                 n++
             }
 
