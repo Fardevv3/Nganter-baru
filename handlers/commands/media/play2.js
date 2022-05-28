@@ -4,7 +4,7 @@ module.exports = {
     tags: ['downloader'],
     cmd: ['play2'],
     args: ['judul - artis'],
-    help: ['play'],
+    help: ['play2'],
     exec: async (m, client, { prefix, args, cmd }) => {
         try {
             if (args.length < 1) return m.reply(`*Fitur mencari lagu full tag metadata, sangat disarankan unutk memasukkan judul lagu yang tepat*\n${prefix}${cmd} judul - artis\n\ncontoh : ${prefix}${cmd} samudra janji - bima tarore`)
