@@ -2,15 +2,15 @@ const YT = require('../../../lib/yt')
 
 module.exports = {
     tags: ['downloader'],
-    cmd: ['play'],
+    cmd: ['play2'],
     args: ['judul - artis'],
-    help: ['play'],
+    help: ['play2'],
     exec: async (m, client, { prefix, args, cmd }) => {
         try {
             if (args.length < 1) return m.reply(`*Fitur mencari Vidio full tag metadata, sangat disarankan unutk memasukkan judul yang tepat*\n${prefix}${cmd} judul - artis\n\ncontoh : ${prefix}${cmd} Garox viral `)
             const arr = await YT.search(args.join(' '))
             let list = new Array();
-            let desc = ` *Play Youtube* \n𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙧 𝙙𝙚𝙣𝙜𝙖𝙣 𝙛𝙪𝙡𝙡 𝙩𝙖𝙜 𝙢𝙚𝙩𝙖𝙙𝙖𝙩𝙖\n\n𝘿𝙞𝙩𝙚𝙢𝙪𝙠𝙖𝙣  *${arr.length}* *Vidio* `
+            let desc = ` *Play Youtube* \nNote: jika Vidio terlalu lama\n\nbot tidak akan merespon  *${arr.length}* *Vidio* `
             for (let i = 0; i < arr.length; i++) {
                 list.push({
                     title: `${i + 1}. ${arr[i].title}`,
